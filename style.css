@@ -50,3 +50,75 @@ button:hover {
 .hidden {
     display: none;
 }
+.loading {
+    text-align: center;
+    font-size: 1.1em;
+    color: #555;
+    padding: 20px;
+}
+#word {
+    color:#007BFF;
+    margin-top: 0;
+    border-bottom: 2px solid #007BFF;
+    padding-bottom: 5px;
+
+}
+#phonetic {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+}
+.meaning-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    background: #f9f9f9;
+}
+.meaning-card h3 {
+    margin-top: 0;
+    color: #007BFF;
+    text-transform: capitalize;
+}
+.meaning-card ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+.meaning-card ul li {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eee;
+}
+.example-text {
+    font-style: italic;
+    color: #666;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.synonyms-text {
+    margin-top: 5px;
+    font-size: 0.9em;
+    color: #28a745;
+    margin-left: 15px;
+}
+#audio {
+    margin-top: 20px;
+    width: 100%;
+}
+#audio.hidden {
+    display: none;
+}
+
+#error-message {
+    color: red;
+    background: #f8d7da;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#error-message.hidden {
+    display: none;
+}
