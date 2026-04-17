@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Word Dictionary-SPA</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <section>
+    <header>
+        <h1>Word Dictionary</h1>
+        <form id="search-form">
+            <input type="text" id="search-input" placeholder="Enter a word..." required>
+            <button type="submit">Search</button>
+        </form>
+    </header>
+        <div id="error-message" class="hidden">    
+        </div>
+        
+        <section id="results" class="hidden">
+            <h2 id="word-title"></h2>
+            <p id="phonetic"></p>
+            <p id="meanings"></p>
+            <p id="part-of-speech"></p>
+            <p id="synonyms"></p>
+            <p id="definitions"></p>
+            <p id="examples"></p>
+            <audio id="audio" controls></audio>
+        </section>
+
+        <script src="script.js"></script>
+   </section>
+</body>
+</html>
