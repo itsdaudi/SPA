@@ -65,7 +65,7 @@ button:hover {
 }
 #phonetic {
     font-style: italic;
-    color: #666;
+    color: #3d3636;
     margin-top: 5px;
 }
 .meaning-card {
@@ -112,7 +112,7 @@ button:hover {
 
 #error-message {
     color: red;
-    background: #f8d7da;
+    background: #4a3a3b;
     margin-top: 20px;
     padding: 12px;
     border-radius: 5px;
